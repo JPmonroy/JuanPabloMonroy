@@ -7,22 +7,32 @@ section{
     background-color: #ffffff;
 
 }
-.section{
+.el{
     background-image: url(../img/FOTO2.jpg);
+    width: 80%;
+
+}
+.Contenedor{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 2000px;
+    overflow: hidden;
 }
 .nav{
     background-color: #CFD8DC;
 }
 .caja_text{
     background-color:  #000000b0;
-    width: 1050px;
+    width: 80%;
     height: 500px;
     float: left;
+    padding: 10px;
     margin-top: 50px;
     margin-left:125px;
     border: 1px solid darkblue;
     background-position:center; 
     color: black;
+    box-sizing: border-box;
 }
 h1{
     font-family: 'Pangolin', cursive;
@@ -41,4 +51,14 @@ p2{
 a{
     text-decoration: none;
     color: #ffffff;
+}
+
+@media only screen and (max-width:768px) {
+
+    .caja_text{
+        margin-left: 30px;
+    }
+    p2{
+        font-size: 20px;
+    }
 }

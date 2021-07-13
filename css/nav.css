@@ -40,3 +40,11 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+@media only screen and (max-width:768px) {
+
+    .Menú p{
+        font-size: 20px;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+}
