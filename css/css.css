@@ -9,7 +9,7 @@ section{
 }
 .el{
     background-image: url(../img/FOTO2.jpg);
-    width: 80%;
+    width: 100%;
 
 }
 .Contenedor{
@@ -21,10 +21,14 @@ section{
 .nav{
     background-color: #CFD8DC;
 }
+.Menú{
+    margin-left: 35px;
+    
+}
 .caja_text{
     background-color:  #000000b0;
     width: 80%;
-    height: 500px;
+    height: 250px;
     float: left;
     padding: 10px;
     margin-top: 50px;
@@ -34,19 +38,44 @@ section{
     color: black;
     box-sizing: border-box;
 }
-h1{
-    font-family: 'Pangolin', cursive;
-    color: #FFFFFF;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 130px;
+.caja_text1{
+    background-color:  #000000b0;
+    width: 80%;
+    height: 250px;
+    margin-top: 20px;
+    float: left;
+    padding: 10px;
+    margin-left:125px;
+    border: 1px solid rgb(18, 255, 10);
+    background-position:center; 
+    color: black;
+    box-sizing: border-box;
 }
-p2{
+.Boton{
+    width: 135px;
+    height: 80px;
+    border: 1px solid blue;
+   background-color: rgba(0, 0, 0, 0.082);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 465px;
+}
+.Text_Bot{
+    color: black;
+}
+.text7{
     font-family: 'Pangolin', cursive;
     color:#ffffff;
     font-size: 22px;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 70px;
+}
+.text8{
+    font-family: 'Pangolin', cursive;
+    color:#ffffff;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 70px;
 }
 a{
     text-decoration: none;
@@ -56,9 +85,13 @@ a{
 @media only screen and (max-width:768px) {
 
     .caja_text{
-        margin-left: 30px;
+        margin-left: 45px;
     }
     p2{
         font-size: 20px;
+    }
+    .caja_text1{
+        margin-left: 45px;
+        height: 320px;
     }
 }

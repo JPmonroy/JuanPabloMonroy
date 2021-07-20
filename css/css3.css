@@ -27,6 +27,7 @@ section{
 } 
 .section{
     background-image: url(../img/FOTO2.jpg);
+    width: 100%;
 }
 .imgPlaneta {
     width: 160px;

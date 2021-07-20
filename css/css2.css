@@ -27,6 +27,7 @@ h4{
 }
 .section{
     background-image: url(../img/FOTO2.jpg);
+    width: 100%;
 }
 .ct1{
     width: 400px;
